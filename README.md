@@ -181,12 +181,27 @@ For *TheThingsNetwork* credentials, change:
 
 ## 3)  The Things Network -> Application -> Payload format
 
-If pre-existent data are present, please reset dragino:
+When data shipped by Dragino arrived on The Things Network, there is necessity to decode them.
+The Things Network make this through a Payload function that get a sequence of bytes and assign them to several variables you have chosen in the payload function.
+In this way it's possible recombine data and send successivily to another external service.
 
-- Press toggle button while dragino is running for about 30 seconds.
+In our test we have trnasmitted data of:
+- gas value 
+- latitude position
+- longitude position
 
-```function Decoder(bytes, port) {
-...
+In the case of latitude and longitude, the string char is recognized immediately from any external service (for example Elastic Search) as a float number.
+Because we have problem with gas value (Elastic Search get this value as string and this cause a problem in the visualization of numerical data), we have convert the gas value in a float through the payload function.
+We have used parseFloat function
+```
+  decoded.gas = parseFloat (gasvalue) 
+```
+
+In this way Elastic Search interpret this value as number and use in tha graph.
+
+
+```
+function Decoder(bytes, port) {
   // Decode an uplink message from a buffer
   // (array) of bytes to an object of fields.
   var decoded = {};
