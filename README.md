@@ -20,7 +20,19 @@ private telemetry og boiler smart city certification of flue (every year in Ital
 - [Slideshare](cassini.785771@studenti.uniroma1.it): slides of the presentation
 - [AMI 2019](cassini.785771@studenti.uniroma1.it): we have showed a paper at this conference in October 2019
 
-## Dragino LoRaWAN Gateway configuration
+
+## README explanation
+This README contains a little guide to process of setup of the several implied devices.
+Anyway we invite you to read the complete story on Medium or Hackster and get here only the codes.
+ 
+The workflow of LoRa Flue network is the following:
+1) At beginning of this you find instructions to connect Dragino with Internet and setup it to be an IOT gateway for every near sensors
+2) Put the code on the LoRa transmitter device to use the gas sensor and execute a sequence of measures and transmissions.
+3) On The Things Network you will need a decoder code for the entrance data
+4) AWS IOT chapter
+5) Android code application
+
+## 1) Dragino LoRaWAN Gateway configuration
 
 If pre-existent data are present, please reset dragino:
 
@@ -76,7 +88,7 @@ Open on your browser dragino IP (based on your network).
 
 ## Firmware
 
-### LoRaWan on Mbed
+### 2) LoRaWan on Mbed
 
 All the comunication system is based on LoRaWAN stack protocol managed by STM32 microcontroller board `DISCO-L072CZ`, programmed by `Mbed` (www.mbed.com). Firmware uses `Mbed OS 5` to provide drivers and pre-built code for:
 
