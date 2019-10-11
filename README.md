@@ -26,11 +26,11 @@ This README contains a little guide to process of setup of the several implied d
 Anyway we invite you to read the complete story on Medium or Hackster and get here only the codes.
  
 The workflow of LoRa Flue network is the following:
-1) At beginning of this you find instructions to connect Dragino with Internet and setup it to be an IOT gateway for every near sensors
-2) Put the code on the LoRa transmitter device to use the gas sensor and execute a sequence of measures and transmissions.
-3) On The Things Network you will need a decoder code for the entrance data
-4) AWS IOT chapter
-5) Android code application
+1- At beginning of this you find instructions to connect Dragino with Internet and setup it to be an IOT gateway for every near sensors
+2- Put the code on the LoRa transmitter device to use the gas sensor and execute a sequence of measures and transmissions.
+3- On The Things Network you will need a decoder code for the entrance data
+4- AWS IOT chapter
+5- Android code application
 
 ## 1) Dragino LoRaWAN Gateway configuration
 
