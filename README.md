@@ -1,5 +1,5 @@
 # LoRa Flue Smoke Gas Monitoring System
-## IOT Exam project - La Sapienza  Rome - Spring 2019 - prof. Ioannis Chatzigiannakis 
+### IOT Exam Project - La Sapienza  Rome - Spring 2019 - prof. Ioannis Chatzigiannakis 
 
 | Contributors: | email |
 | --- | --- |
