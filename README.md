@@ -1,6 +1,8 @@
-# GasAlert24
-
-## Gas sensor - I.O.T. Exam project - Spring 2019
+# LoRa Flue Smoke Gas Monitoring System
+## IOT Exam project 
+# - Spring 2019 - 
+# - La Sapienza  Rome - 
+# - prof. Ioannis Chatzigiannakis -
 
 | Contributors: | email |
 | --- | --- |
@@ -8,7 +10,7 @@
 | Lorenzo Leschiera | ginesi.1832198@studenti.uniroma1.it |
 | Matteo Ginesi     | leschiera.1325697@studenti.uniroma1.it|
 
-## dragino LoRaWAN Gateway configuration
+## Dragino LoRaWAN Gateway configuration
 
 If pre-existent data are present, please reset dragino:
 
