@@ -10,7 +10,15 @@
 ## The Story
 LoRa Flue Smoke Gas Monitoring Repository contains all file to config a LoRa device, The Things Network and create an Android application. We have developed and studied a system to track the smoke level in a flue and send data by a LoRa transmitter. This could be useful for very aspects:
 
-private telemetry og boiler smart city certification of flue (every year in Italy we spend 70 euro to do this check) scientific scope because the pollution from flue are the 60% of the total pollution 
+private telemetry og boiler smart city certification of flue (every year in Italy we spend 70 euro to do this check) scientific scope because the pollution from flue are the 60% of the total pollution.
+
+## Resources
+- Medium | cassini.785771@studenti.uniroma1.it |: with all descriptions of the story
+- Hackster | https://medium.com/@francesco.cassini/lora-flue-gas-monitoring-system-27dc85aeaf66 |: with other resource files
+- Youtube playlist | https://www.youtube.com/watch?v=AftJ-V92vwQ&list=PLAr1WaZbNX6d71oqCRcAHnkAAhue8hiqc |: a list of walkthrough config videos
+- ArmBed | cassini.785771@studenti.uniroma1.it |: repository codes for ArmMbed cpu
+- Slideshare | cassini.785771@studenti.uniroma1.it |: slides of the presentation
+- AMI 2019 | cassini.785771@studenti.uniroma1.it |: we have showed a paper at this conference in October 2019
 
 ## Dragino LoRaWAN Gateway configuration
 
