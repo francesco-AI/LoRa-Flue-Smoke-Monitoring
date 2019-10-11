@@ -30,7 +30,7 @@ The workflow of LoRa Flue network is the following:
 At beginning of this you find instructions to connect Dragino with Internet and setup it to be an IOT gateway for every near sensors
 #### 2) LoRaWan on Mbed 
 Put the code on the LoRa transmitter device to use the gas sensor and execute a sequence of measures and transmissions.
-#### 3) The Things Network Decoder code 
+#### 3) The Things Network Decoder 
  On The Things Network you will need a decoder code for the entrance data
 #### 4) AWS IOT  exaplanation
 AWS IOT chapter
@@ -177,4 +177,36 @@ For *TheThingsNetwork* credentials, change:
             "lora.appskey": "{C-STYLE HEX App Session Key}",
             "lora.nwkskey": "{C-STYLE HEX Network Session Key}",
             "lora.device-address": "0x<HEX DATA OF device address>"
+```
+
+## 3)  The Things Network -> Application -> Payload format
+
+If pre-existent data are present, please reset dragino:
+
+- Press toggle button while dragino is running for about 30 seconds.
+
+```function Decoder(bytes, port) {
+...
+  // Decode an uplink message from a buffer
+  // (array) of bytes to an object of fields.
+  var decoded = {};
+  var gasvalue = '';
+  
+  decoded.gas = '';
+  decoded.id = '';
+  for(var i = 0 ; i<bytes.length ; i++){
+    decoded.lat = 41.891253;
+    decoded.lng = 12.503410;
+    if(i<4)
+      decoded.id += String.fromCharCode(bytes[i]);
+    else
+      gasvalue += String.fromCharCode(bytes[i]);
+  } 
+  
+  decoded.gas = parseFloat (gasvalue)
+  console.log(bytes);
+
+  return decoded;
+}
+
 ```
