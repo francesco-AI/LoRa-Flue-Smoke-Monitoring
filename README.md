@@ -21,7 +21,7 @@ private telemetry og boiler smart city certification of flue (every year in Ital
 - [AMI 2019](cassini.785771@studenti.uniroma1.it): we have showed a paper at this conference in October 2019
 
 
-## README explanation
+## README INDEX of contents
 This README contains a little guide to process of setup of the several implied devices.
 Anyway we invite you to read the complete story on Medium or Hackster and get here only the codes.
  
