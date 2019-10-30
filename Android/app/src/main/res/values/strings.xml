@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FinalProjectIoT</string>
+    <string name="CHANNEL_ID">IoTChannelNotification</string>
+</resources>
