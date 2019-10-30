@@ -1,0 +1,10 @@
+C:\Users\Lorenzo\Desktop\cloudpatterns-master\cloudpatterns-master\src\IoT Gas\bin\IoT Gas.dll.config
+C:\Users\Lorenzo\Desktop\cloudpatterns-master\cloudpatterns-master\src\IoT Gas\bin\IoT Gas.dll
+C:\Users\Lorenzo\Desktop\cloudpatterns-master\cloudpatterns-master\src\IoT Gas\bin\IoT Gas.pdb
+C:\Users\Lorenzo\Desktop\cloudpatterns-master\cloudpatterns-master\src\IoT Gas\bin\AWSSDK.dll
+C:\Users\Lorenzo\Desktop\cloudpatterns-master\cloudpatterns-master\src\IoT Gas\bin\AWSSDK.pdb
+C:\Users\Lorenzo\Desktop\cloudpatterns-master\cloudpatterns-master\src\IoT Gas\obj\Release\IoT Gas.csprojAssemblyReference.cache
+C:\Users\Lorenzo\Desktop\cloudpatterns-master\cloudpatterns-master\src\IoT Gas\obj\Release\IoT Gas.csproj.CoreCompileInputs.cache
+C:\Users\Lorenzo\Desktop\cloudpatterns-master\cloudpatterns-master\src\IoT Gas\obj\Release\IoT Gas.csproj.CopyComplete
+C:\Users\Lorenzo\Desktop\cloudpatterns-master\cloudpatterns-master\src\IoT Gas\obj\Release\IoT Gas.dll
+C:\Users\Lorenzo\Desktop\cloudpatterns-master\cloudpatterns-master\src\IoT Gas\obj\Release\IoT Gas.pdb
